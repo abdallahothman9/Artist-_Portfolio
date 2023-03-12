@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0px;
+  padding: 0; */
+}
+body {
+  font-family: Cormorant, serif;
+}
+h1 {
+  display: inline-block;
+  font-weight: 300;
+  margin:0 32px 0 0;
+}
+
+nav {
+  display: inline-block;
+}
+
+.link li {
+  display: inline-block;
+  list-style: none;
+}
+.link li a {
+  color: black;
+  text-decoration-line: none;
+  margin: 0 8px;
+  font-size: 20px;
+}
+.link ul {
+  display: inline-block;
+  padding: 0;
+}
+.navbar {
+  padding: 32px;
+}
+.active {
+  border-bottom: 1px solid black;
+}
+
+footer {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  width: 49.75%;
+  padding: 20px;
+}
+.card img {
+  height: 500px;
+  width: 100%;
+}
+.card img:hover {
+  opacity: 0.9;
+}
+span {
+  border-bottom: 2px solid black;
+}
+.about h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+.about {
+  margin: 10px 0 30px 50px;
+  width: 40%;
+  min-width: 600px;
+}
+.contact {
+  margin-top: 90px;
+}
+.contact > p {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.cta {
+  display: inline-block;
+  padding-bottom: 7px;
+  border-bottom: 2px solid black;
+}
